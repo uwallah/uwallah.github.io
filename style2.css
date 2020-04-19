@@ -1,0 +1,47 @@
+
+
+body {
+    color: #7575a3;
+    display:flex;
+    justify-content: center;
+    align-items:center;}
+
+.smaragd {
+    /* margin-left:auto;  */
+    /* margin-right:auto;  */
+      position:relative;
+      background:#50E3C2;
+      width: 400px;
+      height:600px;
+      margin-bottom:20px;
+      display:flex;
+      justify-content: center;
+      align-items:center;
+          }
+h1, form{text-align: center;}
+
+.rovidkek {
+       /*      position:absolute; */
+     padding:10px;
+    margin-left:auto; 
+    margin-right:auto; 
+     width: 80%;
+     height: 80%;
+     background: #F7F7F7;
+     /* display:flex; */
+     /* text-align: center; */
+     overflow: auto;
+    } 
+     
+.add, .lista, #dwn-btn{background:#DF69E8;
+color:white;}
+
+.fas{float:right;
+padding-right:10px;}
+
+.green { color: green;}
+.checked {
+text-decoration:line-through;}
+
+#text-val {display:none;}
+
