@@ -1,4 +1,4 @@
- var folder = "images/";
+ var folder = "https://welwerin.github.io/kepgalleria/images/";
  var kepek = [];
  var filename =[];
  var img = [];
