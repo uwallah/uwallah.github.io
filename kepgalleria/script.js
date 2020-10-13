@@ -1,3 +1,4 @@
+if (document.addEventListener) {
 window.addEventListener('load', function() {
   document.querySelector('input[type="file"]').addEventListener('change', function() {
       if (this.files && this.files[0]) {
@@ -7,7 +8,7 @@ window.addEventListener('load', function() {
       }
   });
 });
-
+}
 function imageIsLoaded() { 
  // alert(this.src);  // blob url
   // update width and height ...
