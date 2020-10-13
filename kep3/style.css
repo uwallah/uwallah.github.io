@@ -1,0 +1,107 @@
+body {
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width:90%;
+height:99%;
+}
+
+.container{
+    /* background: radial-gradient(#fdfdfd, #9c9d9e); */
+    background: radial-gradient(#e8b2b2, #c1d8ee);
+
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+
+    
+    /* width: 1200px; */
+     /* height:800px;  */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     }
+   
+       .column {
+    background:white;
+    /* width: 760px; */
+    /* height: 400px; */
+    width: 1000px; 
+     height: 600px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+        float: left;
+        -webkit-box-shadow: 13px 10px 18px 0px rgba(31,6,31,1);
+-moz-box-shadow: 13px 10px 18px 0px rgba(31,6,31,1);
+box-shadow: 13px 10px 18px 0px rgba(31,6,31,1);
+            }
+      
+      .left, .right {
+        width: 5%;
+        font-size:25px;
+        cursor: pointer;
+      }
+      
+
+      .left:hover, .right:hover {
+        color:green;
+      }
+
+      .middle {
+        width:90%;
+      }
+
+      .container:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+       .szoveg{
+        background-color:black;
+        /* opacity:0.5; */
+    bottom:13.3%;
+    color:white;
+    position:relative;
+      background: rgb(0, 0, 0); /* Fallback color */
+      background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+     
+      width: 1000px;      
+    }
+p, h2, .photoinfo {margin-left:20px;
+    font-weight: 900;
+    text-shadow: 0 0 3px #000;
+  font-size:large;
+color:white;}
+
+a {
+  font-weight: 900;
+  text-shadow: 0 0 3px #000;
+font-size:large;
+color:white;
+text-decoration:none;}
+
+  .thumbnails{
+ margin-top: 20px;
+    width:60%;
+    cursor: pointer;
+    /* height: 80px; */
+ 
+      
+   }
+  
+   .thumbnails img {padding: 10px;
+   }
+
+   .thumbnails img:hover {width:160px;
+    padding: 5px;
+    height:100px;
+  
+      
+    
+   }
